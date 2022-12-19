@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-image: url(/intro-web/Assets/stormtrooper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+main{
+    width: 450px;
+    max-width: 90%;
+    margin:50px auto;
+}
+
+.profile{
+    display: inline-block;
+    margin-left: calc(50% - 75px);
+    text-align: center;
+}
+
+.profile img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.social-box  {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin: 0;
+    padding-top: 3rem;
+
+}
+
+.link-box p{
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    padding-top: 1rem;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="post">
+        <label for="nombre">Nombre</label><br>
+        <label type="text" id="nombre"></label>
+    </form>
+    <br>
+    <form action="get">
+        <input type="radio" id="huey" name="drone" value="hugo" checked>Hugo
+        <input type="radio" id="dewey" name="drone" value="paco" checked>Paco
+        <input type="radio" id="louie" name="drone" value="luis" checked>Luis
+    </form>
+
+
+    <section class="form">
+        <img src="../Assets/1-removebg-preview.png" alt="">
+
+        <form>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="name" name="user_mail"><br>
+            <label for="password">Password</label><br>
+            <input type="password" minlength="8" required><br>
+            <input type="submit" value="Sign in"><br>
+            <input type="radio" id="remember" name="remember" value="hugo" checked>Remember me
+        </form>
+    </section>
+</body>
+</html>
+
+<!--
+    ETIQUETAS PRA FORMULARIOS
+
+    type = tipo de campo
+    === Indica el tipo de campo del que se trata ====
+
+    name = nombre del campo
+    === Indica el nombre del campo para hacer referencia mas tarde ===
+
+    value = valor por defecto
+    === Indica el valor inicial que tendra ese campo de datos ===
+
+    form = nombre del formulario
+    === Asocia este campo de datos con un formulario especifico
+
+    placeholder = sugerencia
+    ===Indica una sugerencia al usuario antes de escribir ===
+
+    size = numero 
+    === Tamaño visual ( numero de caracteres) del campo de datos
+
+    autocomplete = on/of
+    === activa o desactiva el autocompletado para ese campo
+
+    autofocus = 
+    ===Establece el foco (coloca el cursor) en este campo al cargar la pagina 
+-->
